@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вадим — нефтяник. Персональный сайт-визитка</title>
+  <meta name="description" content="Персональный сайт-визитка Вадима, специалиста нефтяной отрасли. Кратко о себе, интересах, проектах и контактах.">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-mark">V</span>
+        <div class="logo-text">
+          <span class="logo-name">Вадим</span>
+          <span class="logo-subtitle">инженер-нефтяник</span>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#home">Главная</a></li>
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="section hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Вадим — специалист нефтяной отрасли</h1>
+          <p>
+            Я занимаюсь нефтяной отраслью и отношусь к своей профессии как к инженерной задаче с живой
+            ответственностью. Важно не только понимать теорию разработки месторождений, но и видеть за
+            цифрами реальные объекты, людей и решения, которые работают в полевых условиях. Этот сайт я
+            сделал как личную визитку: здесь коротко показано, чем я интересуюсь в нефтянке, какие направления
+            мне близки и как со мной можно связаться.
+          </p>
+          <button class="btn primary-btn" data-scroll-target="#contacts">
+            Связаться со мной
+          </button>
+        </div>
+        <div class="hero-photo">
+          <div class="photo-frame">
+            <img src="./img/personal-photo.jpeg" alt="Фото Вадима, специалиста нефтяной отрасли">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2>Обо мне</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Я выбрал нефтяную отрасль, потому что в ней сочетаются серьёзная инженерия, геология,
+              анализ данных и реальное влияние на инфраструктуру. Мне интересно, как проектируются и
+              эксплуатируются месторождения, как принимаются решения по разработке скважин, как на
+              практике работают модели, которые мы считаем на бумаге и в программных комплексах.
+            </p>
+            <p>
+              В работе я стараюсь сочетать аккуратность в расчётах с прагматичным отношением к полевым
+              условиям. Важно не только «идеальное» решение, но и то, насколько его реально внедрить:
+              какие ресурсы нужны, какие риски есть, как всё это повлияет на безопасность и экономику.
+              Отдельно интересуюсь цифровизацией отрасли, автоматизацией расчётов и визуализацией
+              данных, чтобы сложные процессы становились понятнее.
+            </p>
+          </div>
+          <div class="about-skills">
+            <h3>Темы и интересы</h3>
+            <ul>
+              <li>разработка и эксплуатация нефтяных месторождений;</li>
+              <li>анализ показателей работы скважин и оборудования;</li>
+              <li>освоение и испытание скважин, интерпретация результатов;</li>
+              <li>цифровые инструменты и моделирование в нефтянке;</li>
+              <li>безопасность и культура производства в отрасли.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio">
+      <div class="container">
+        <h2>Портфолио и визуальные материалы</h2>
+        <p class="section-intro">
+          Ниже — небольшая галерея с тематическими иллюстрациями, отражающими ключевые элементы нефте­
+          газовой отрасли: месторождения, инфраструктуру, оборудование и данные. Для учебных и
+          демонстрационных целей здесь могут быть размещены реальные фотографии с объектов, кадры из
+          проектов, графики или визуализации расчётов.
+        </p>
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img src="./img/gallery-1.svg" alt="Схематичное изображение нефтяного месторождения">
+            <figcaption>Схема месторождения и распределение скважин.</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="./img/gallery-2.svg" alt="Иллюстрация насосно-компрессорного оборудования">
+            <figcaption>Оборудование добычи и транспортировки нефти.</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="./img/gallery-3.svg" alt="Диаграмма с данными по работе скважин">
+            <figcaption>Данные и графики работы скважин и объектов.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="section contacts">
+      <div class="container contacts-inner">
+        <div class="contacts-info">
+          <h2>Контакты</h2>
+          <p>
+            Если вы хотите обсудить учебный или рабочий проект, задать вопрос по тематике нефтяной отрасли
+            или просто выйти на связь — воспользуйтесь формой или контактами ниже.
+          </p>
+          <ul class="contacts-list">
+            <li>
+              Телефон:
+              <a href="tel:+79213736530">+7&nbsp;921&nbsp;373‑65‑30</a>
+            </li>
+            <li>
+              Email:
+              <a href="mailto:kharrasovvadim@icloud.com">kharrasovvadim@icloud.com</a>
+            </li>
+          </ul>
+          <div class="social-links">
+            <a href="mailto:kharrasovvadim@icloud.com target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <img src="./img/gmail-svgrepo-com.svg" alt="Иконка Gmail">
+            </a>
+            <a href="https://t.me/ggggeeerrr2" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+              <img src="./img/telegram-svgrepo-com-3.svg" alt="Иконка Telegram">
+            </a>
+          </div>
+        </div>
+
+        <div class="contacts-form-wrapper">
+          <h3>Форма обратной связи</h3>
+          <form id="contact-form" novalidate>
+            <div class="form-field">
+              <label for="name">Имя</label>
+              <input type="text" id="name" name="name" placeholder="Как к вам обращаться?">
+            </div>
+            <div class="form-field">
+              <label for="email">Email<span class="required">*</span></label>
+              <input type="email" id="email" name="email" placeholder="example@mail.ru" required>
+              <p class="field-error" id="email-error" aria-live="polite"></p>
+            </div>
+            <div class="form-field">
+              <label for="message">Сообщение</label>
+              <textarea id="message" name="message" rows="4" placeholder="Кратко опишите вопрос или тему."></textarea>
+            </div>
+            <button type="submit" class="btn secondary-btn">Отправить</button>
+            <p class="form-success" id="form-success" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© Вадим, 2026. Персональный сайт-визитка.</p>
+      <p class="footer-note">
+        Сайт создан вручную на HTML, CSS и JavaScript с учётом адаптивности и требований учебного задания.
+      </p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+
